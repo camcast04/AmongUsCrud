@@ -1,0 +1,53 @@
+.app {
+  display: flex;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #333;
+  padding: 20px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.sidebar img {
+  width: 100%;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+}
